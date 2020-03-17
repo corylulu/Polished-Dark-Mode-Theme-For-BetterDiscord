@@ -2,12 +2,17 @@
  * @name Polished Discord Dark-Mode (by corylulu)
  * @author corylulu#0001
  * @version 1.0.0
- * @description [Requires "Normalized Classes" Option] Does a variety of style tweaks like adjusting whitespace, increasing contrast of UI, enlargening emoji sizes, font changes, and some small QoL changes like making the Emoji pop-up taller. 
+ * @description Does a variety of style tweaks like adjusting whitespace, increasing contrast of UI, enlargening emoji sizes, font changes, and some small QoL changes like making the Emoji pop-up taller. 
  * @source https://github.com/corylulu/Polished-Dark-Mode-Theme-For-BetterDiscord/
  */
 
+@import url("https://corylulu.github.io/BetterDiscordTheme/fonts.css");
 @import url("https://corylulu.github.io/BetterDiscordTheme/base.css");
 
 :root {
-  /* No adjustable settings rn */
+  --emoji-reaction-size: 1.2rem;
+  --emoji-inline-size: 1.55rem;
+  --emoji-jumbo-size: 3.0rem;
+  --emoji-picker-height: 324px;
+  --global-fonts: Slack-Lato, appleLogo, sans-serif;
 }
