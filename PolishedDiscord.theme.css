@@ -10,6 +10,8 @@
 @import url("https://corylulu.github.io/BetterDiscordTheme/fonts.css");
 /* Base style sheet */
 @import url("https://corylulu.github.io/BetterDiscordTheme/base.css");
+/* Light mode stuff */
+@import url("https://corylulu.github.io/BetterDiscordTheme/lightmode.css");
 
 /* Adjustable parameters */
 :root {
@@ -19,16 +21,21 @@
   --emoji-picker-height: 324px;   /* Default: 260px */
   --global-fonts: Slack-Lato, appleLogo, sans-serif; 
   --channel-list-width: 228px;    /* Default: 240px */
+
+  /* Uncomment to disable dark mode servers and app title bar in light mode */
+  /* --disable-dark-elem: 1; */   
 }
 
 /********************************************************************************************* 
   List of modifications:
   - Enlargens emoji's globally
   - Increases the size of the edit comment box
+  - Adds line under servers in server list
   - Adjusted whitespace in channel list sidebar (compactified, but comfy)
   - Font adjustments (changes to Slack-Lato font)
   - Context menu adjustments (Mostly only needed if you have "Copy Selector"option enabled)
   - Adjusts message area, adds subtle divider
   - Makes Inline code background darker to increase visibility
   - Darkens the secondary background colors globally to improve contrast
+  - In light mode, option to make server list and app title bar dark-mode
 /**********************************************************************************************/
