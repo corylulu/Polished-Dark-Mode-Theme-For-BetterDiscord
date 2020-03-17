@@ -20,3 +20,16 @@
   --global-fonts: Slack-Lato, appleLogo, sans-serif;
   --channel-list-width: 228px;
 }
+
+/********************************************************************************************* 
+  List of modifications:
+  - Enlargens emoji's globally
+  - Increases the size of the edit comment box
+  - Adds line under servers in server list
+  - Adjusted whitespace in channel list sidebar (compactified, but comfy)
+  - Font adjustments (changes to Slack-Lato font)
+  - Context menu adjustments (Mostly only needed if you have "Copy Selector"option enabled)
+  - Adjusts message area, adds subtle divider
+  - Makes Inline code background darker to increase visibility
+  - Darkens the secondary background colors globally to improve contrast
+/**********************************************************************************************/
