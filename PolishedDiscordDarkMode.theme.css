@@ -6,9 +6,12 @@
  * @source https://github.com/corylulu/Polished-Dark-Mode-Theme-For-BetterDiscord/
  */
 
+/* Imports Slack font */
 @import url("https://corylulu.github.io/BetterDiscordTheme/fonts.css");
+/* Base style sheet */
 @import url("https://corylulu.github.io/BetterDiscordTheme/base.css");
 
+/* Adjustable parameters */
 :root {
   --emoji-reaction-size: 1.2rem;
   --emoji-inline-size: 1.55rem;
