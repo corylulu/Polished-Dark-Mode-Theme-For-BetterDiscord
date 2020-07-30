@@ -17,7 +17,7 @@
   --emoji-reaction-size: 1.2rem;  /* Default: 1.0rem */
   --emoji-inline-size: 1.55rem;   /* Default: 1.375rem */
   --emoji-jumbo-size: 3.0rem;     /* Default: 3.0rem */
-  --emoji-picker-height: calc(100vh-200px) !important;   /* Default: 444px */
+  --emoji-picker-height: calc(100vh - 200px) !important;   /* Default: 444px */
   --channel-list-width: 228px;    /* Default: 240px */
 
   /* Uncomment to disable dark mode servers and app title bar in light mode */
